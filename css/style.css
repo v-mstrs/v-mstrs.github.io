@@ -1,16 +1,22 @@
+* {
+    font-family: "Zalando Sans Expanded", sans-serif;
+}
 body {
-    font: 16px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
     background-color: #242422;
-    color: whitesmoke;
-}
-
-main, footer {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
+    line-height: 1.4;
 }
-a {
-    color: lightskyblue;
-    text-decoration: none;
+a, li, p {
+    color: white;
+    font-size: 18px;
+}
+a:hover {
+    color: rgb(100, 112, 243);
+}
+footer, h2, h1 {
+    color: rgb(145, 227, 255);
+    
 }
 img {
     width: 180px;
