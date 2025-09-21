@@ -1,8 +1,9 @@
 * {
     font-family: "Zalando Sans Expanded", sans-serif;
+    font-weight: 400; 
 }
 body {
-    background-color: #242422;
+    background-color: #121212;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.4;
@@ -13,6 +14,7 @@ a, li, p {
 }
 a:hover {
     color: rgb(100, 112, 243);
+    background-color: white;
 }
 footer, h2, h1 {
     color: rgb(145, 227, 255);
